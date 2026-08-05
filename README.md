@@ -86,6 +86,8 @@ The full project documentation can be found here:
 | homepage.png | System homepage screenshot |
 | prediction.png | Prediction interface screenshot |
 | visualization.png | Data visualization screenshot |
+| architecture.png | System architecture diagram |
+| flowchart.png | Machine learning workflow diagram |
 
 ---
 
