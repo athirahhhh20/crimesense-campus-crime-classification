@@ -1,176 +1,78 @@
 # CrimeSense: Campus Crime Classification Using Machine Learning
 
-
 ## Project Overview
 
-CrimeSense is an integrated campus crime management platform that combines anonymous crime reporting, machine learning techniques, and data visualization to support campus safety monitoring.
+CrimeSense is a machine learning-based system developed to classify campus crime cases based on historical crime data.
 
-The project focuses on analyzing crime patterns, classifying crime incidents, and developing a Flask-based web application to provide data-driven insights for better safety management.
+The system aims to assist campus management by providing crime prediction and visualization features to support better safety planning and decision-making.
 
+This project applies machine learning techniques for crime classification and provides an interactive interface for users to explore prediction results and crime patterns.
+
+---
 
 ## Project Objectives
 
-The main objectives of CrimeSense are:
+- To develop a machine learning model for campus crime classification.
+- To analyze crime patterns using data visualization techniques.
+- To provide an interface for users to perform crime prediction.
+- To support campus safety improvement through data-driven insights.
 
-### 1. Anonymous Crime Reporting Platform
+---
 
-To develop a secure platform that enables users to report crimes or suspicious activities anonymously while maintaining confidentiality.
+## System Interface
 
-### 2. Machine Learning-Based Crime Classification
+### Homepage
 
-To apply machine learning techniques to analyze crime patterns and classify crime incidents based on historical crime data.
+![Homepage](homepage.png)
 
-Several classification algorithms were evaluated:
+### Prediction Page
 
-- Random Forest
-- Decision Tree
-- Support Vector Machine (SVM)
+![Prediction](prediction.png)
 
+### Visualization
 
-### 3. Crime Data Visualization
+![Visualization](visualization.png)
 
-To provide visualization features that allow users to analyze crime trends, identify patterns, and support better understanding of campus safety conditions.
+---
 
+## Machine Learning Model
 
-# System Development Process
+The model was developed using Python and machine learning algorithms. The complete implementation is available in:
 
-## 1. Data Collection
+`CrimeSense_Model.ipynb`
 
-Crime-related data was collected and prepared for analysis.
+---
 
-## 2. Data Preprocessing
+## Project Report
 
-The dataset underwent preprocessing steps including:
+The full project documentation can be found here:
 
-- Data cleaning
-- Handling missing values
-- Data transformation
-- Feature preparation
+`CrimeSense_Report.pdf`
 
+---
 
-## 3. Exploratory Data Analysis (EDA)
-
-Exploration was conducted to understand crime patterns and identify important factors affecting crime classification.
-
-
-## 4. Machine Learning Development
-
-Multiple classification algorithms were implemented and evaluated:
-
-- Random Forest
-- Decision Tree
-- Support Vector Machine (SVM)
-
-
-The models were compared based on classification performance using evaluation metrics such as accuracy and F-score.
-
-
-## 5. Flask Application Development
-
-A web-based application was developed using Flask to integrate:
-
-- Anonymous crime reporting
-- Crime classification prediction
-- Data visualization features
-
-
-
-# Technologies Used
-
-
-## Programming Language
+## Technologies Used
 
 - Python
-
-
-## Machine Learning & Data Analysis
-
-- Pandas
-- NumPy
-- Scikit-learn
 - Jupyter Notebook
+- Machine Learning
+- Data Visualization
+- GitHub
 
+---
 
-## Web Development
+## Project Files
 
-- Flask
-- HTML
-- CSS
+| File | Description |
+|---|---|
+| CrimeSense_Model.ipynb | Machine learning model implementation |
+| CrimeSense_Report.pdf | Project report documentation |
+| homepage.png | System homepage screenshot |
+| prediction.png | Prediction interface screenshot |
+| visualization.png | Data visualization screenshot |
 
+---
 
-## Visualization
+## Author
 
-- Python Visualization Libraries
-
-
-
-# Project Features
-
-
-## Anonymous Crime Reporting
-
-Allows users to submit crime reports while maintaining privacy and confidentiality.
-
-
-## Crime Classification Prediction
-
-The system predicts crime categories based on input data using trained machine learning models.
-
-
-## Crime Data Visualization
-
-Provides visual insights into crime patterns and trends to support better understanding of campus safety.
-
-
-
-# Machine Learning Approach
-
-
-The following classification algorithms were evaluated:
-
-| Model |
-|-------|
-| Random Forest |
-| Decision Tree |
-| Support Vector Machine (SVM) |
-
-
-The evaluation process helped identify the most suitable model for integration into the CrimeSense application.
-
-
-
-# Key Findings
-
-- Machine learning techniques can be applied to classify campus crime incidents.
-- Random Forest and Decision Tree demonstrated stronger performance compared to SVM for this dataset.
-- Data analysis and visualization help provide better understanding of crime patterns.
-
-
-
-# System Interface
-<img width="856" height="343" alt="image" src="https://github.com/user-attachments/assets/537d8e97-efe0-4caf-b8df-d605d67598e4" />
-<img width="793" height="384" alt="image" src="https://github.com/user-attachments/assets/018bfb9c-d061-4f1c-97dd-e7bc33bb7cdd" />
-<img width="785" height="432" alt="image" src="https://github.com/user-attachments/assets/e6d16731-9839-45a9-a89e-378fb5c6713c" />
-
-
-
-
-# Future Improvements
-
-Future enhancements include:
-
-- Deploying the application online
-- Improving model performance with larger datasets
-- Integrating location-based crime mapping
-- Adding real-time crime monitoring features
-
-
-
-# Author
-
-Nurul Athirah
-
-Data Analytics Graduate
-
-Skills:
-Python | Machine Learning | Flask | Data Visualization
+CrimeSense Project
