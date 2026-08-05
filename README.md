@@ -39,7 +39,7 @@ This project applies machine learning techniques for crime classification and pr
 
 The model was developed using Python and machine learning algorithms. The complete implementation is available in:
 
-`CrimeSense_Model.ipynb`
+[CampusDefender](campusdefender_enhanced.py)
 
 ---
 
