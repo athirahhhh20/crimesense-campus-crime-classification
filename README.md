@@ -74,5 +74,5 @@ The full project documentation can be found here:
 ---
 
 ## Author
-
+Athirah Mohammad
 CrimeSense Project
