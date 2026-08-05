@@ -47,7 +47,7 @@ The model was developed using Python and machine learning algorithms. The comple
 
 The full project documentation can be found here:
 
-[CrimeSense](Report CrimeSense.pdf)
+[CrimeSense](ReportCrimeSense.pdf)
 
 ---
 
