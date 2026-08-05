@@ -1,8 +1,8 @@
-# CrimeSense: Campus Crime Classification Using Machine Learning
+# CampusDefender: Campus Crime Classification Using Machine Learning
 
 ## Project Overview
 
-CrimeSense is a machine learning-based system developed to classify campus crime cases based on historical crime data.
+CampusDefender is a machine learning-based system developed to classify campus crime cases based on historical crime data.
 
 The system aims to assist campus management by providing crime prediction and visualization features to support better safety planning and decision-making.
 
@@ -47,7 +47,7 @@ The model was developed using Python and machine learning algorithms. The comple
 
 The full project documentation can be found here:
 
-`CrimeSense_Report.pdf`
+[CampusDefender](Report CampusDefender.pdf)
 
 ---
 
