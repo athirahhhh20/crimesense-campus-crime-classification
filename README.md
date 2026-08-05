@@ -34,7 +34,23 @@ This project applies machine learning techniques for crime classification and pr
 ![Visualization](visualization.png)
 
 ---
+---
 
+## System Design
+
+### System Architecture
+
+The overall architecture shows the workflow of the CrimeSense system, including data input, preprocessing, machine learning model, and prediction output.
+
+![System Architecture](architecture.png)
+
+### System Workflow
+
+The workflow illustrates the process from data collection, data preprocessing, model training, prediction, and visualization.
+
+![System Workflow](flowchart.png)
+
+---
 ## Machine Learning Model
 
 The model was developed using Python and machine learning algorithms. The complete implementation is available in:
